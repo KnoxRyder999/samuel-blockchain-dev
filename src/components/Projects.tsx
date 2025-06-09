@@ -12,7 +12,7 @@ export const Projects = () => {
       tech: ["Solidity", "React", "Web3.js", "Node.js"],
       url: "https://chainfarmx.web.app",
       description: "Led development of secure ERC-20 staking contracts with modular, gas-optimized reward logic. Integrated real-time frontend with staking dashboards, transaction tracking, and analytics.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=400&fit=crop",
+      image: "bitcoin2.png",
       color: "from-blue-400 to-cyan-400"
     },
     {
@@ -23,7 +23,7 @@ export const Projects = () => {
       tech: ["Solidity", "Next.js", "Moralis", "IPFS"],
       url: "https://pixelmint.io",
       description: "Developed full-stack NFT platform with ERC-721 smart contracts, lazy minting, and gas-efficient auctions. Enabled artist profiles, IPFS storage, and MetaMask login.",
-      image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=400&fit=crop",
+      image: "smartcontract-5.png",
       color: "from-purple-400 to-pink-400"
     },
     {
@@ -34,7 +34,7 @@ export const Projects = () => {
       tech: ["GPT-4 API", "React", "Python", "MongoDB"],
       url: "https://autobrief-ai.vercel.app",
       description: "Built GPT-powered SaaS tool that converts financial data into natural language summaries. Integrated with Slack and Google Sheets for live team updates and automated report delivery.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+      image: "graph-3.png",
       color: "from-green-400 to-teal-400"
     },
     {
@@ -45,7 +45,7 @@ export const Projects = () => {
       tech: ["Solidity", "React", "Firebase"],
       url: "https://civicchain-demo.web.app",
       description: "Created a token-gated DAO voting platform with on-chain ballot execution and transparent result tracking. Earned 2nd place at a national Web3 hackathon in Singapore.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=400&fit=crop",
+      image: "vote-2.png",
       color: "from-yellow-400 to-orange-400",
       award: "🏆 2nd Place Winner"
     },
@@ -57,7 +57,19 @@ export const Projects = () => {
       tech: ["OpenAI API", "Node.js", "Vue.js"],
       url: "https://linguabot.live",
       description: "Built customizable chatbot supporting 10+ languages with GPT-powered responses, tone control, fallback logic, and basic intent detection for e-commerce platforms.",
-      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=400&fit=crop",
+      image: "ai-chat.png",
+      color: "from-indigo-400 to-purple-400"
+    },
+    {
+      title: "TaskBoardX – Real-Time Kanban Tool",
+      period: "Jun 2019 – Nov 2019",
+      company: "SkyBit Labs",
+      role: 'Full-Stack Developer',
+      tech: ["Vue.js", "Node.js", "WebSocket", "MongoDB"],
+      description: "Real-time Kanban board with drag-and-drop, mentions, and team activity tracking. Optimized for remote teams and live collaboration.",
+      url: "https://taskboardx.io",
+      image: "remote-3.png",
+      category: "SaaS",
       color: "from-indigo-400 to-purple-400"
     }
   ];
